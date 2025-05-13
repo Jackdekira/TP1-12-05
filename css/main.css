@@ -13,7 +13,18 @@ main {
     align-items: flex-start;
 }
 
-article {
-    width: 75%;
-    padding: 1rem;
+noticia {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
+ principal {
+    flex: 1 1 100%; 
+    background: #f0f0f0;
+    padding: 15px;
+}
+ secundaria{
+    background: #f0f0f0;
+    padding: 15px;
+}
+ 
