@@ -32,3 +32,41 @@ article {
   text-decoration: none;
   vertical-align: middle;
 }
+
+-.contenedor {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+article {
+    width: 75%;
+    padding: 1rem;
+}
+ 
+/* Para las imágenes de noticias 
+.imagen-principal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;  /* Aumentamos el tamaño de la imagen */
+    /* height: auto;  /* Mantiene la relación de aspecto */
+ /*} */
+
+ /*imagen-secundaria {
+<!--  position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 400px;  /* Aumentamos el tamaño de la imagen */
+  /* height: auto;  /* Mantiene la relación de aspecto 
+} 
+-->*/
